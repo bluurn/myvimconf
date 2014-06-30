@@ -17,5 +17,5 @@ This config includes:
     cd myvimconf
     git submodule init
     git submodule update
-    mv .vim ..
-    mv .vimrc ..
+    cp .vim ..
+    cp .vimrc ..
