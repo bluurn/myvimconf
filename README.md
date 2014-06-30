@@ -13,6 +13,9 @@ This config includes:
 
 ## Installation
     cd ~
-    git clone git@github.com:bluurn/myvimconf.git ./
+    git clone git@github.com:bluurn/myvimconf.git 
+    cd myvimconf
     git submodule init
     git submodule update
+    mv .vim ..
+    mv .vimrc ..
